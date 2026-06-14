@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper text-ink;
+    background-color: #f6f1e7;
+    background-image: radial-gradient(
+      circle at 1px 1px,
+      rgba(38, 38, 31, 0.06) 1px,
+      transparent 0
+    );
+    background-size: 18px 18px;
+  }
+
+  :focus-visible {
+    outline: 2px solid #bc5b39;
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  /* The "file card" wrapper used to frame every page's main content */
+  .file-card {
+    @apply relative border border-ink/15 bg-paper-dark/60 shadow-[6px_6px_0_0_rgba(47,69,56,0.18)];
+  }
+
+  /* Small stamped label, e.g. FILE NO. 02 */
+  .stamp {
+    @apply inline-flex items-center gap-2 border border-forest/40 px-2.5 py-1 font-display text-xs uppercase tracking-[0.2em] text-forest;
+  }
+
+  /* Folder-style nav tab */
+  .tab-link {
+    @apply font-display text-xs uppercase tracking-[0.18em] px-4 py-2 border border-b-0 border-ink/15 rounded-t-md transition-colors duration-200;
+  }
+
+  .tab-link[data-active="true"] {
+    @apply bg-paper text-forest border-ink/25 -mb-px relative z-10;
+  }
+
+  .tab-link[data-active="false"] {
+    @apply bg-paper-dark/40 text-ink/50 hover:text-forest hover:bg-paper/70;
+  }
+
+  .underline-link {
+    @apply underline decoration-rust/50 decoration-2 underline-offset-4 hover:decoration-rust transition-colors;
+  }
+}
