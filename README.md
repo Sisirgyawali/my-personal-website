@@ -266,3 +266,4 @@ Run `npx prisma studio`, open the table, and delete rows manually — or run
 | `git add . && git commit -m "..." && git push` | Save and deploy your changes |
 
 Enjoy your new website!
+"# my-personal-website" 
