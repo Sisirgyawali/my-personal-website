@@ -24,7 +24,7 @@ export const profile = {
   // Leave a value as "" to hide that link from the footer/nav.
   social: {
     github: "https://github.com/Sisirgyawali",
-    linkedin: "https://linkedin.com/in/Sisirgyawali",
+    linkedin: "www.linkedin.com/in/shishir-gyawali-34ab0a2b2",
     instagram: "https://www.instagram.com/sisir1238/",
     twitter: "https://www.facebook.com/shisir.gyawalee.7",
   },
