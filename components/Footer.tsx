@@ -9,13 +9,24 @@ export default function Footer() {
   ].filter((l) => l.href);
 
   return (
-    <footer className="border-t border-ink/10 mt-20">
+    <footer
+      className="border-t mt-20"
+      style={{ borderColor: "color-mix(in srgb, var(--ink) 10%, transparent)" }}
+    >
       <div className="mx-auto max-w-5xl px-4 sm:px-6 py-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
         <div>
-          <p className="font-display text-xs uppercase tracking-[0.25em] text-forest">
+          <p
+            className="font-display text-xs uppercase tracking-[0.25em]"
+            style={{ color: "var(--forest)" }}
+          >
             {profile.name}
           </p>
-          <p className="mt-1 text-sm text-ink/60">{profile.location}</p>
+          <p
+            className="mt-1 text-sm"
+            style={{ color: "color-mix(in srgb, var(--ink) 60%, transparent)" }}
+          >
+            {profile.location}
+          </p>
         </div>
 
         {links.length > 0 && (
@@ -35,7 +46,10 @@ export default function Footer() {
         )}
 
         <div className="stamp shrink-0">
-          <span className="h-1.5 w-1.5 rounded-full bg-rust" />
+          <span
+            className="h-1.5 w-1.5 rounded-full"
+            style={{ background: "var(--rust)" }}
+          />
           Filed &amp; Updated {new Date().getFullYear()}
         </div>
       </div>
