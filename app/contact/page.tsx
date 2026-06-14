@@ -109,7 +109,7 @@ export default function ContactPage() {
 
           {status === "sent" && (
             <p className="text-sm text-forest-light">
-              Thanks — your message has been recorded. I'll get back to you soon.
+              Thanks — your message has been recorded. I&apos;ll get back to you soon.
             </p>
           )}
           {status === "error" && (
