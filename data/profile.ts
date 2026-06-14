@@ -23,10 +23,10 @@ export const profile = {
   // --- Social / contact links ------------------------------------------
   // Leave a value as "" to hide that link from the footer/nav.
   social: {
-    github: "https://github.com/shishir-gyawali",
-    linkedin: "https://linkedin.com/in/shishir-gyawali",
-    instagram: "sisir1238",
-    twitter: "sisir1238",
+    github: "https://github.com/Sisirgyawali",
+    linkedin: "https://linkedin.com/in/Sisirgyawali",
+    instagram: "https://www.instagram.com/sisir1238/",
+    facebook: "https://www.facebook.com/shisir.gyawalee.7",
   },
 
   // --- Education / Studies -----------------------------------------------
