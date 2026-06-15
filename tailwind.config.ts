@@ -9,13 +9,13 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        paper: "#F6F1E7",
-        "paper-dark": "#ECE2CC",
-        ink: "#26261F",
-        forest: "#2F4538",
-        "forest-light": "#41604F",
-        rust: "#BC5B39",
-        sage: "#8AA28A",
+        paper: "rgb(var(--bg-rgb) / <alpha-value>)",
+        "paper-dark": "rgb(var(--bg-dark-rgb) / <alpha-value>)",
+        ink: "rgb(var(--ink-rgb) / <alpha-value>)",
+        forest: "rgb(var(--forest-rgb) / <alpha-value>)",
+        "forest-light": "rgb(var(--forest-light-rgb) / <alpha-value>)",
+        rust: "rgb(var(--rust-rgb) / <alpha-value>)",
+        sage: "rgb(var(--sage-rgb) / <alpha-value>)",
       },
       fontFamily: {
         display: ["var(--font-mono)", "monospace"],

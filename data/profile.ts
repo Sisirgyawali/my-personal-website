@@ -26,7 +26,7 @@ export const profile = {
     github: "https://github.com/Sisirgyawali",
     linkedin: "https://www.linkedin.com/in/shishir-gyawali-34ab0a2b2/",
     instagram: "https://www.instagram.com/sisir1238/",
-    twitter: "https://www.facebook.com/shisir.gyawalee.7",
+    facebook: "https://www.facebook.com/shisir.gyawalee.7",
   },
 
   // --- Education / Studies -----------------------------------------------

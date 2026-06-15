@@ -18,6 +18,17 @@
     --sage: #8AA28A;
     --card-shadow: rgba(47, 69, 56, 0.18);
     --glow: rgba(47, 69, 56, 0.35);
+
+    /* RGB-triplet versions for Tailwind's color-opacity utilities
+       (e.g. text-ink/70, bg-paper-dark/60). Keep in sync with the
+       hex values above. */
+    --bg-rgb: 246 241 231;
+    --bg-dark-rgb: 236 226 204;
+    --ink-rgb: 38 38 31;
+    --forest-rgb: 47 69 56;
+    --forest-light-rgb: 65 96 79;
+    --rust-rgb: 188 91 57;
+    --sage-rgb: 138 162 138;
   }
 
   /* ── Dark theme ── */
@@ -31,6 +42,15 @@
     --sage: #7aab8a;
     --card-shadow: rgba(106, 173, 133, 0.15);
     --glow: rgba(106, 173, 133, 0.4);
+
+    /* RGB-triplet versions for Tailwind's color-opacity utilities */
+    --bg-rgb: 20 24 20;
+    --bg-dark-rgb: 28 34 25;
+    --ink-rgb: 232 224 204;
+    --forest-rgb: 106 173 133;
+    --forest-light-rgb: 143 204 167;
+    --rust-rgb: 224 122 88;
+    --sage-rgb: 122 171 138;
   }
 
   body {

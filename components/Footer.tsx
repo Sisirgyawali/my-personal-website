@@ -5,7 +5,7 @@ export default function Footer() {
     { label: "GitHub", href: profile.social.github },
     { label: "LinkedIn", href: profile.social.linkedin },
     { label: "Instagram", href: profile.social.instagram },
-    { label: "Twitter / X", href: profile.social.twitter },
+    { label: "Facebook", href: profile.social.facebook },
   ].filter((l) => l.href);
 
   return (

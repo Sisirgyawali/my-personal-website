@@ -46,7 +46,10 @@ export default function HomePage() {
     <div>
       {/* Hero */}
       <section className="reveal file-card p-8 sm:p-12">
-        <div className="stamp mb-6">Personal Record — Open File</div>
+        <a href="#records" className="stamp mb-6 inline-flex">
+          Personal Record — Open File
+          <span aria-hidden="true">&darr;</span>
+        </a>
 
         {/* Name + photo side by side */}
         <div className="flex flex-col sm:flex-row items-start sm:items-center gap-6">
@@ -104,7 +107,7 @@ export default function HomePage() {
       </section>
 
       {/* Index of sections */}
-      <section className="mt-12">
+      <section id="records" className="mt-12">
         <p
           className="font-display text-xs uppercase tracking-[0.25em] mb-4"
           style={{ color: "color-mix(in srgb, var(--ink) 50%, transparent)" }}
